@@ -1,0 +1,112 @@
+
+.first-header{
+    justify-content: end;
+    gap: 20px;
+    padding: 10px;
+}
+
+.list-top-header{
+    gap: 20px;
+    align-items: center;
+}
+
+.top-header-item-link{
+    color: #57585e;
+    font-family: "GoogleSans-Regular";
+    text-transform: uppercase;
+}
+.top-header-item:last-child .top-header-item-link{
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 10px 24px;
+    text-transform: uppercase;
+    font-family: "GoogleSans-Regular";
+    font-size: 14px;
+    margin-left: 5px;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+.top-header-item:last-child:hover .top-header-item-link{
+    background-color: #e0e911;
+    border-color: #9fed0c;
+}
+.top-header-item-link{
+    color: #57585e;
+    font-family: "GoogleSans-Regular";
+    text-transform: uppercase;
+}
+.logo-form-search-header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-search-header{
+    justify-content: center;
+    align-items: center;
+}
+.form-search-header input{
+    width: 300px;
+    height: 37px;
+    border: 1px solid #dbdada;
+    padding: 10px 20px;
+    color: #000;
+}
+.form-search-header i{
+    background: #4D90FE;
+    padding: 11px 24px;
+    color: #fff;
+}
+
+.main-menu-header menu{
+    margin: 0;
+    padding: 0;
+}
+.main-menu{
+    padding: 10px 0;
+    justify-content: space-around;
+}
+.memu-item{
+    padding: 22px 0px;
+    position: relative;
+}
+.menu-item-link{
+    text-transform: uppercase;
+    font-family: "Merriweather-Regular";
+    font-size: 16.85px;
+    padding: 8px 16px;
+    color: #333333;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.memu-item:hover .wp-sub-menu{
+    display: flex;
+}
+.wp-sub-menu{
+    position: absolute;
+    background: #fff;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 220px;
+    justify-content: start;
+    display: none;
+    top: 40px;
+}
+.sub-menu-item{
+    width: 100%;
+    padding: 8px 0px;
+}
+.sub-menu-item:hover{
+    background-color: #007bff;
+}
+.sub-menu-item:hover .sub-menu-item-link{
+    color: #fff;
+}
+.sub-menu-item-link{
+    font-family: "Merriweather-Regular";
+    font-size: 14px;
+    padding: 12px 24px;
+    color: #5e5959;
+}
